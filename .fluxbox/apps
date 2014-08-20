@@ -1,0 +1,22 @@
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=Mail) (class=Thunderbird) (role=3pane)
+  [Workspace]	{1}
+[end]
+[app] (name=gedit) (class=Gedit) (role=gedit-window-1403701309-123113-0-armandito-Aspire-5542)
+  [Maximized]	{yes}
+[end]
+[app] (name=gnome-terminal) (class=Gnome-terminal) (role=gnome-terminal-window-2637-1029455781-1403701306)
+  [Maximized]	{yes}
+[end]
+[app] (name=Navigator) (class=Firefox) (role=browser)
+  [Maximized]	{yes}
+[end]
+[app] (name=rhythmbox) (class=Rhythmbox)
+  [Workspace]	{1}
+[end]
+[app] (name=gnome-terminal) (class=Gnome-terminal) (role=gnome-terminal-window-2010-540864532-1403786312)
+  [Maximized]	{yes}
+[end]
