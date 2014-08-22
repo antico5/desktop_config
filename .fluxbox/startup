@@ -19,7 +19,7 @@ xmodmap "/home/armandito/.Xmodmap"
 # Because it is the last app you have to run it with ''exec'' before it.
 
 /home/armandito/programas/bash/auto_randr.sh &
-gnome-sound-applet &
+nm-applet &
 
 exec fluxbox
 # or if you want to keep a log:
