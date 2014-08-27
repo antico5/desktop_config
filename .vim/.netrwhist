@@ -1,4 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/armandito/webapps/active_force/spec/active_force'
-let g:netrw_dirhist_2='/home/armandito'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/armandito'
+let g:netrw_dirhist_2='/home/armandito/webapps/xively_api_client/spec'
+let g:netrw_dirhist_3='/home/armandito/webapps/xively_api_client'
+let g:netrw_dirhist_4='/home/armandito/webapps'
+let g:netrw_dirhist_5='/home/armandito'
+let g:netrw_dirhist_6='/home/armandito/webapps/active_force'
+let g:netrw_dirhist_7='/home/armandito/webapps'
+let g:netrw_dirhist_8='/home/armandito'

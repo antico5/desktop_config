@@ -8,13 +8,14 @@ set nu
 set autoread
 
 " Mappings
-nmap <Esc><Esc> :q <CR>
-nmap <F4> :!rspec <CR>
-nmap <F5> :w <CR>
-nmap <F6> :!gitg <CR>
-nmap <Space> /
-nmap ñ :
 
+map <Esc><Esc> :q <CR>
+map <F4> :!rspec <CR>
+map <F5> :w <CR>
+map <F6> :!gitg <CR>
+map <Space> /
+map ñ :
+map <Tab> $
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim

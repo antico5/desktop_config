@@ -1,23 +1,11 @@
-sgme-calc
-arandr
-gnognomrhythmbox
--applet
-xkill
-nm-applet
--nw
-chromium-browser
-nm-applet
-rhythmbox
-gnome-panel
-ome-calc
+some-calc
 emacs -nw
 chromium-browser
 nm-applet
-rhythmbox
-er
-nm-applet
-rhythmbox
-gnome-panel
+rhythmbogvim
+gnome-control-center
+r
+me-panel
 ome-calc
 emacs -nw
 chromium-browser
@@ -48,3 +36,18 @@ xkill
 rhythmbox
 -applet
 xkill
+rhythmbox
+el
+ome-calc
+emacs -nw
+chromium-browser
+nm-applet
+xkill
+rhythmbox
+-applet
+xkill
+gnome-panel
+et
+xkill
+gnome-control-center
+gvim
