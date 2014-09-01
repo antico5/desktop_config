@@ -20,3 +20,10 @@
 [app] (name=gnome-terminal) (class=Gnome-terminal) (role=gnome-terminal-window-2010-540864532-1403786312)
   [Maximized]	{yes}
 [end]
+[app] (name=workrave) (class=Workrave)
+  [Workspace]	{1}
+  [Sticky]	{no}
+[end]
+[app] (name=skype) (class=Skype)
+  [Workspace]	{1}
+[end]

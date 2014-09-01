@@ -20,6 +20,7 @@ xmodmap "/home/armandito/.Xmodmap"
 
 /home/armandito/programas/bash/auto_randr.sh &
 nm-applet &
+workrave &
 
 exec fluxbox
 # or if you want to keep a log:

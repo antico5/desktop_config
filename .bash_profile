@@ -4,3 +4,4 @@ HISTFILESIZE=45000
 
 export GREP_OPTIONS='--color=auto --exclude=*.pyc --exclude-dir=.git'
 xset r rate 250 33
+export EDITOR=vim

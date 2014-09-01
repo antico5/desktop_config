@@ -12,7 +12,7 @@ set autoread
 map <Esc><Esc> :q <CR>
 map <F4> :!rspec <CR>
 map <F5> :w <CR>
-map <F6> :!gitg <CR>
+map <F6> :Gstatus <CR>
 map <Space> /
 map ñ :
 map <Tab> $

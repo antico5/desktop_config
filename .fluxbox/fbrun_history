@@ -2,10 +2,9 @@ some-calc
 emacs -nw
 chromium-browser
 nm-applet
-rhythmbogvim
-gnome-control-center
-r
-me-panel
+rhythmbogggnome-control-center sound
+
+-panel
 ome-calc
 emacs -nw
 chromium-browser
@@ -51,3 +50,5 @@ et
 xkill
 gnome-control-center
 gvim
+gnome-screenshot
+gnome-control-center sound
