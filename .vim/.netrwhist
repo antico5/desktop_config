@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/armandito/webapps/active_force/spec/active_force'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/armandito/webapps/active_force/.git'
 let g:netrw_dirhist_2='/home/armandito'
+let g:netrw_dirhist_3='/home/armandito/.workrave'
+let g:netrw_dirhist_4='/home/armandito/webapps/salesforce_demo_app'
+let g:netrw_dirhist_5='/home/armandito/webapps'
+let g:netrw_dirhist_6='/home/armandito'

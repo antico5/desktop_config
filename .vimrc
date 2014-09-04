@@ -4,6 +4,18 @@ filetype off                  " required
 set expandtab
 set shiftwidth=2
 set softtabstop=2
+set nu
+set autoread
+
+" Mappings
+
+map <Esc><Esc> :q <CR>
+map <F4> :!rspec <CR>
+map <F5> :w <CR>
+map <F6> :Gstatus <CR>
+map <Space> /
+map ñ :
+map <Tab> $
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -14,24 +26,14 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
-" Plugin 'tpope/vim-fugitive'
-" plugin from http://vim-scripts.org/vim/scripts.html
-" Plugin 'L9'
-" Git plugin not hosted on GitHub
-" Plugin 'git://git.wincent.com/command-t.git'
-" git repos on your local machine (i.e. when working on your own plugin)
-" Plugin 'file:///home/gmarik/path/to/plugin'
-" The sparkup vim script is in a subdirectory of this repo called vim.
-" Pass the path to set the runtimepath properly.
-" Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Avoid a name conflict with L9
-" Plugin 'user/L9', {'name': 'newL9'}
-
 " Ctrl+P plugin (snap open)
 Plugin 'kien/ctrlp.vim'
+
+" Solarized
+Plugin 'altercation/vim-colors-solarized'
+
+" Fugitive
+Plugin 'tpope/vim-fugitive'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -47,3 +49,6 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+color solarized
+set background=dark
