@@ -10,6 +10,7 @@ set autoread
 " Mappings
 
 map <Esc><Esc> :q <CR>
+map <F2> :Ex <CR>
 map <F4> :!rspec <CR>
 map <F5> :w <CR>
 map <F6> :Gstatus <CR>

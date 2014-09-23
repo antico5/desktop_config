@@ -27,3 +27,6 @@
 [app] (name=skype) (class=Skype)
   [Workspace]	{1}
 [end]
+[app] (name=gnome-terminal) (class=Gnome-terminal) (role=gnome-terminal-window-2654--1041436871-1409663845)
+  [Maximized]	{yes}
+[end]
