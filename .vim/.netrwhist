@@ -1,3 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/home/armandito/webapps/neb/app/workers'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/armandito'
+let g:netrw_dirhist_2='/home/armandito/webapps/neb'
+let g:netrw_dirhist_3='/home/armandito/webapps/neb/spec'
+let g:netrw_dirhist_4='/home/armandito/webapps/neb/spec/controllers'
+let g:netrw_dirhist_5='/home/armandito/webapps/neb/spec'
+let g:netrw_dirhist_6='/home/armandito/webapps/neb/spec/support'

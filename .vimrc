@@ -11,6 +11,7 @@ set autoread
 
 map <Esc><Esc> :q <CR>
 map <F2> :Ex <CR>
+map <F3> :!grep -nr 
 map <F4> :!rspec <CR>
 map <F5> :w <CR>
 map <F6> :Gstatus <CR>
@@ -55,5 +56,5 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-color solarized
-set background=dark
+" color solarized
+" set background=dark
