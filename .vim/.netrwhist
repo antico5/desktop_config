@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/armandito/webapps/neb/spec'
-let g:netrw_dirhist_2='/home/armandito/webapps/neb/spec/models'
-let g:netrw_dirhist_3='/home/armandito/webapps/xively_device_watcher/lib/xively'

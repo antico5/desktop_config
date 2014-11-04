@@ -3,14 +3,6 @@ OnDesktop Mouse1 :HideMenus
 OnDesktop Mouse2 :WorkspaceMenu
 OnDesktop Mouse3 :RootMenu
 
-# scroll on the desktop to change workspaces
-OnDesktop Mouse4 :PrevWorkspace
-OnDesktop Mouse5 :NextWorkspace
-
-# scroll on the toolbar to change current window
-OnToolbar Mouse4 :PrevWindow {static groups} (iconhidden=no)
-OnToolbar Mouse5 :NextWindow {static groups} (iconhidden=no)
-
 # alt + left/right click to move/resize a window
 OnWindow Mod1 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
 OnWindowBorder Move1 :StartMoving
@@ -83,6 +75,11 @@ Control Mod1 F :Exec firefox
 
 # OPEN CALCULATOR
 Control Mod1 U :Exec gnome-calculator
+
+# OPEN SOUND CONFIG
+Control Mod1 N :Exec gnome-control-center sound
+
+
 
 
 # open a dialog to run programs

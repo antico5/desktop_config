@@ -13,6 +13,10 @@ alias gs='git status'
 alias gf='git fetch'
 alias gl='git log'
 alias gp='git pull'
+alias gb='git branch'
 alias v='vim'
 alias ls='ls -la'
 alias c='cd'
+alias irb='irb -Ilib'
+
+git config --global alias.lol "log --pretty=oneline --abbrev-commit --graph --decorate"
