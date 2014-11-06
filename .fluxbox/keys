@@ -34,10 +34,6 @@ OnTitlebar Mouse3 :WindowMenu
 Mod1 Tab :NextWindow {groups} (workspace=[current])
 Mod1 Shift Tab :PrevWindow {groups} (workspace=[current])
 
-# cycle through tabs in the current window
-Mod4 Tab :NextTab
-Mod4 Shift Tab :PrevTab
-
 # go to a specific tab in the current window
 Mod4 1 :Tab 1
 Mod4 2 :Tab 2
@@ -106,8 +102,7 @@ Mod1 space :WindowMenu
 Control Mod1 Delete :Exit
 
 # change to previous/next workspace
-Control Mod1 Left :PrevWorkspace
-Control Mod1 Right :NextWorkspace
+Mod4 Tab :NextWorkspace
 
 # send the current window to previous/next workspace
 Mod4 Left :SendToPrevWorkspace

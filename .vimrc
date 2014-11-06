@@ -13,7 +13,7 @@ set nonumber
 map <Esc><Esc> :q <CR>
 map <F2> :Ex <CR>
 map <F3> :!clear && grep -nr 
-map <F4> :!rspec <CR>
+map <F4> :!rspec --color <CR>
 map <F5> :w <CR>
 map <F6> :Gstatus <CR>
 map <Space> /
