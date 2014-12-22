@@ -7,6 +7,8 @@ HISTFILESIZE=45000
 export GREP_OPTIONS='--color=auto --exclude=*.pyc --exclude-dir=.git'
 xset r rate 250 33
 export EDITOR=vim
+export PATH=$PATH:/home/armandito/bin
+
 
 alias gco='git checkout'
 alias gs='git status'
@@ -20,3 +22,4 @@ alias c='cd'
 alias irb='irb -Ilib'
 
 git config --global alias.lol "log --pretty=oneline --abbrev-commit --graph --decorate"
+

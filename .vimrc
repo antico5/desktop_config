@@ -1,17 +1,18 @@
+" Configuration
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
-
 set expandtab
 set shiftwidth=2
 set softtabstop=2
 set nu
 set autoread
-set nonumber
+set number
 
 " Mappings
 
 map <Esc><Esc> :q <CR>
-map <F2> :Ex <CR>
+map <F2> :NERDTreeToggle <CR>
 map <F3> :!clear && grep -nr 
 map <F4> :!rspec --color <CR>
 map <F5> :w <CR>
@@ -23,28 +24,33 @@ map <Tab> $
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
+
+" Plugins
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-
-" let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-
-" Ctrl+P plugin (snap open)
 Plugin 'kien/ctrlp.vim'
-
-" Solarized
-Plugin 'altercation/vim-colors-solarized'
-
-" Fugitive
 Plugin 'tpope/vim-fugitive'
-
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'slim-template/vim-slim'
-
 Plugin 'bronson/vim-trailing-whitespace'
-
-" All of your Plugins must be added before the following line
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-endwise'
+Plugin 'ervandew/supertab'
+Plugin 'SirVer/ultisnips'
+Plugin 'kchmck/vim-coffee-script'
 call vundle#end()            " required
+
+" Snippets config
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<S-tab>"
+"put snips on dotfile folder
+"let g:UltiSnipsSnippetsDir="~/.dotfiles/vim/snips"
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
+
+
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
@@ -58,5 +64,6 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+" Style
 color solarized
 set background=dark
