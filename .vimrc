@@ -21,6 +21,8 @@ map <F8> Ibinding.pry<CR><Esc>
 map <Space> /
 map ñ :
 map <Tab> $
+map <C-k> 5k
+map <C-j> 5j
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -39,6 +41,7 @@ Plugin 'tpope/vim-endwise'
 Plugin 'ervandew/supertab'
 Plugin 'SirVer/ultisnips'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'oplatek/Conque-Shell'
 call vundle#end()            " required
 
 " Snippets config
